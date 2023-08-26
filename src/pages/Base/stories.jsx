@@ -1,11 +1,11 @@
 import { Base } from ".";
 
+import mock from "./mock";
+
 export default {
     title: "Pages/Base",
     component: Base,
-    args: {
-        children: "Base",
-    },
+    args: mock,
     argTypes: {
         children: { type: "string" },
     },
